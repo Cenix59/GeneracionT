@@ -1,0 +1,39 @@
+body {
+    align-items: center;
+    flex-direction: column;
+    display:inline-flex;
+    font-family: monospace;
+    justify-content: center;
+}
+
+.BreadUP {
+    padding: 0.3cm;
+    width: 400px; 
+    height: 20px;
+    margin-right: 40px;
+    background-color: rgb(184, 146, 76);
+    border-top-left-radius: 1cm;
+    border-top-right-radius: 1cm;
+    background-blend-mode:color;
+}
+
+.Sausage {
+    padding: 0.3cm;
+    width: 430px; 
+    height: 15px;
+    margin-right: 40px;
+    background-color:brown;
+    border-radius: 1cm;
+    background-blend-mode:color;
+}
+
+.BreadDown {
+    padding: 0.3cm;
+    width: 400px; 
+    height: 20px;
+    margin-right: 40px;
+    background-color:rgb(184, 146, 76);
+    border-bottom-left-radius: 1cm;
+    border-bottom-right-radius: 1cm;
+    background-blend-mode:color; 
+}

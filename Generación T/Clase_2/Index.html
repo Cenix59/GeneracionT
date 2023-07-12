@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad 2</title>
+
+    <style>
+        td, th {
+            font-size: small; 
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1> Servicios de Streaming </h1> <br> <br>
+
+    <table class="table table-bordered">
+        <th>Nombre del producto</th>
+        <th>Informacion tecnica</th>
+        <th>Caracteristicas</th>
+
+        <tr>
+            <td>Netflix</td>
+            <td><ul>
+                <li>Es un servicio por suscripción que les permite a sus miembros ver series y películas en un dispositivo</li>
+                <li>Funciona con conexión a internet</li>
+            </ul></td>
+            
+            <td><ul>
+                <li>Podes descargar series para verlo en cualquier lugar sin conexión</li>
+            </ul></td>
+        </tr>
+        
+        <tr>
+            <td>Disney</td>
+            <td><ul>
+                <li>Es un servicio por suscripción que les permite a sus miembros ver series y películas en un dispositivo</li>
+                <li>Funciona con conexión a internet</li>
+            </ul></td>
+            
+            <td><ul>
+                <li>Podes descargar series para verlo en cualquier lugar sin conexión</li>
+            </ul></td>
+        </tr>
+
+    
+    </table><br><br>
+
+
+    <form class="form-group">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+        <label for="sexo">Sexo:</label>
+        <select id="estado-civil" name="estado-civil">
+          <option value="Mujer">Mujer</option>
+          <option value="hombre">Hombre</option>
+          <option value="otro">Otro</option>
+        </select>
+        <br>
+        <label>
+          <input type="checkbox" name="newsletter" value="si">
+          Deseo recibir el Servicio.
+        </label>
+        <br>
+        <label for="comentarios" style="display: flex; justify-content: left  ;">Comentarios:</label>
+        <textarea id="comentarios" name="comentarios"></textarea>
+        <br>
+        <button type="submit">Enviar</button>
+        <button type="submit">Limpiar</button>
+      </form>
+</body>
+</html>
